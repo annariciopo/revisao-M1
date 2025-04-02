@@ -70,10 +70,6 @@ d) a == b retorna false e a === b retorna true.
 
 **Considere o array de convidados da imagem abaixo como exemplo.**
 
-**Qual das seguintes implementações da função encontrarConvidadoEspecial está correta e efetivamente retorna o nome do convidado que satisfaz as condições especificadas?**
-
-**Observe as alternativas na imagem abaixo e assinale a alternativa correta.**
-
 ```javascript
 let convidadas = [
     { nome: "Maria", idade: 15, confirmado: true },
@@ -82,6 +78,10 @@ let convidadas = [
     { nome: "Luiza", idade: 18, confirmado: true }
 ];
 ```
+
+**Qual das seguintes implementações da função encontrarConvidadoEspecial está correta e efetivamente retorna o nome do convidado que satisfaz as condições especificadas?**
+
+**Observe as alternativas na imagem abaixo e assinale a alternativa correta.**
 
 a) 
 ```js
@@ -440,10 +440,6 @@ d) [3, 5, 15]
 
 **Observe o código abaixo.**
 
-**Considerando a estrutura das classes ConteudoDigital e Video no sistema de gestão de conteúdo digital, qual dos seguintes códigos cria corretamente uma instância de `Video` e chama o método `info()` para exibir suas informações?**
-
-**Observe as alternativas na imagem abaixo e assinale a correta.**
-
 ```js
 class ConteudoDigital {
   constructor(titulo, criador) {
@@ -467,6 +463,10 @@ class Video extends ConteudoDigital {
   }
 }
 ```
+
+**Considerando a estrutura das classes ConteudoDigital e Video no sistema de gestão de conteúdo digital, qual dos seguintes códigos cria corretamente uma instância de `Video` e chama o método `info()` para exibir suas informações?**
+
+**Observe as alternativas na imagem abaixo e assinale a correta.**
 
 a)
 ```js
