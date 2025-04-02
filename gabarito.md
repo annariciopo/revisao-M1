@@ -1,6 +1,6 @@
 # Gabarito Exercícios de Revisão - M1
 
-### **1) Considere o seguinte código. Qual é o valor armazenado na variável numeros?**
+**1) Considere o seguinte código. Qual é o valor armazenado na variável numeros?**
 
 ```js
 const array = [1, 2, 3, 4, 5, 6];
@@ -15,7 +15,7 @@ c) [2, 3, 4]
 
 **d) [2, 4, 6]**
 
-### **2) Qual será a saída do código?**
+**2) Qual será a saída do código?**
 
 ```js
 let dia = 3;
@@ -39,7 +39,7 @@ b) "Segunda-feira"
 
 d) Erro, pois não há case para o valor 3.
 
-### **3) Considerando as comparações `a == b` e `a === b`, qual das alternativas descreve corretamente o resultado de cada comparação?**
+**3) Considerando as comparações `a == b` e `a === b`, qual das alternativas descreve corretamente o resultado de cada comparação?**
 
 ```js
 let a = 10;
@@ -54,19 +54,19 @@ b) a == b retorna true e a === b retorna true.
 
 d) a == b retorna false e a === b retorna true.
 
-### **4) Você está desenvolvendo um recurso para um aplicativo de gerenciamento de listas de convidados para eventos. O aplicativo deve permitir que o organizador do evento identifique rapidamente se existe um convidado que atenda a critérios específicos dentro de uma lista de convidados. Cada convidado é representado por um objeto com as propriedades nome, idade e confirmado (um booleano que indica se o convidado confirmou sua assistência ao evento). O objetivo é encontrar o primeiro convidado que:**
+**4) Você está desenvolvendo um recurso para um aplicativo de gerenciamento de listas de convidados para eventos. O aplicativo deve permitir que o organizador do evento identifique rapidamente se existe um convidado que atenda a critérios específicos dentro de uma lista de convidados. Cada convidado é representado por um objeto com as propriedades nome, idade e confirmado (um booleano que indica se o convidado confirmou sua assistência ao evento). O objetivo é encontrar o primeiro convidado que:**
 
 - **Confirmou sua participação ao evento.**
 
 - **Tem 30 anos ou mais.**
 
-### **Você decide criar uma função encontrarConvidado Especial que recebe a lista de convidados como argumento e retorna o nome do convidado que satisfaz as condições acima, ou null se nenhum convidado satisfizer esses critérios.**
+**Você decide criar uma função encontrarConvidado Especial que recebe a lista de convidados como argumento e retorna o nome do convidado que satisfaz as condições acima, ou null se nenhum convidado satisfizer esses critérios.**
 
-### **Considere o array de convidados da imagem abaixo como exemplo.**
+**Considere o array de convidados da imagem abaixo como exemplo.**
 
-### **Qual das seguintes implementações da função encontrarConvidadoEspecial está correta e efetivamente retorna o nome do convidado que satisfaz as condições especificadas?**
+**Qual das seguintes implementações da função encontrarConvidadoEspecial está correta e efetivamente retorna o nome do convidado que satisfaz as condições especificadas?**
 
-### **Observe as alternativas na imagem abaixo e assinale a alternativa correta.**
+**Observe as alternativas na imagem abaixo e assinale a alternativa correta.**
 
 ```javascript
 let convidadas = [
@@ -122,7 +122,7 @@ function encontrarConvidadaEspecial (convidados){
 }
 ```
 
-### **5) Qual é o valor armazenado em x e por que ele ocorre dessa forma?**
+**5) Qual é o valor armazenado em x e por que ele ocorre dessa forma?**
 
 ```js
 let x = "10" + 5;
@@ -136,7 +136,7 @@ c) 105, por conta da multiplicação implícita.
 
 d) "15", pois o JavaScript soma os valores como strings.
 
-### **6) Por que a tentativa de alterar o valor de PI gera um erro?**
+**6) Por que a tentativa de alterar o valor de PI gera um erro?**
 
 ```js
 const PI = 3.14;
@@ -151,7 +151,7 @@ c) Porque o valor 3.14 não pode ser alterado em JavaScript.
 
 d) Porque constantes só aceitam valores inteiros.
 
-### **7) Considere o código abaixo. Qual será o valor impresso no console?**
+**7) Considere o código abaixo. Qual será o valor impresso no console?**
 
 ```js
 const numeros = [1, 2, 3, 4, 5];
@@ -170,7 +170,7 @@ c) 12
 
 d)20
 
-### **8) Você está criando uma função que analisa a temperatura para indicar o estado da água. A função deve retornar:**
+**8) Você está criando uma função que analisa a temperatura para indicar o estado da água. A função deve retornar:**
 
 - `"sólido"` se a temperatura for menor que 0,
 - `"líquido"` se a temperatura estiver entre 0 (inclusive) e 100 (exclusive),
@@ -220,7 +220,7 @@ function estadoDaAgua(temperatura) {
 }
 ```
 
-### **9) Qual será a saída do código abaixo?**
+**9) Qual será a saída do código abaixo?**
 
 ```javascript
 const conta = (x) => x * 2;
@@ -236,7 +236,7 @@ c) `x * 2`
 d) `Erro`  
 
 
-### **10) Analise o código a seguir. Qual será a saída impressa no console?**
+**10) Analise o código a seguir. Qual será a saída impressa no console?**
 
 ```js
 const letras = ['a', 'b', 'c', 'd'];
@@ -258,7 +258,7 @@ c) "a"
 
 **d) "ab"**
 
-### **11) Qual será a saída do código abaixo?**
+**11) Qual será a saída do código abaixo?**
 
 ```js
 function expoa, b) {
@@ -276,7 +276,7 @@ c) Retorna `8`
 
 d) Causa um erro  
 
-### **12) Analise o seguinte código. Qual é o valor armazenado na variável maximo após a execução do laço?**
+**12) Analise o seguinte código. Qual é o valor armazenado na variável maximo após a execução do laço?**
 
 ```js
 const valores = [3, 7, 2, 9, 5];
@@ -297,7 +297,7 @@ c) 3
 
 **d) 9**
 
-### **13) Qual é o valor padrão de uma variável que foi declarada, mas não inicializada?**
+**13) Qual é o valor padrão de uma variável que foi declarada, mas não inicializada?**
 
 ```js
 let x;
@@ -312,11 +312,9 @@ c) 0
 
 d) ""
 
-### **14) Em um jogo desenvolvido com Phaser, você precisa mover um sprite de um ponto inicial para um ponto final. Para isso, você precisa calcular a trajetória do sprite. A trajetória do sprite pode ser representada por uma linha reta. A posição inicial do sprite é representada pelo vetor "origem" e a posição final do sprite é representada pelo vetor "destino".**
+**14) Em um jogo desenvolvido com Phaser, você precisa mover um sprite de um ponto inicial para um ponto final. Para isso, você precisa calcular a trajetória do sprite. A trajetória do sprite pode ser representada por uma linha reta. A posição inicial do sprite é representada pelo vetor "origem" e a posição final do sprite é representada pelo vetor "destino".**
 
-### **Considerando o código JavaScript abaixo, qual alternativa implementa corretamente a função "calcular Trajetoria", que calcula a trajetória do sprite?**
-
-### **Observe as alternativas na imagem abaixo e assinale a alternativa correta.**
+**Considerando o código JavaScript abaixo, qual alternativa implementa corretamente a função "calcular Trajetoria", que calcula a trajetória do sprite?**
 
 ```js
 function calcularTrajetoria(origem, destino) {
@@ -327,6 +325,8 @@ const origem = new Phaser.Math.Vector2(100, 100);
 const destino = new Phaser.Math.Vector2(200, 200);
 const trajetoria = calcularTrajetoria(origem, destino);
 ```
+
+**Observe as alternativas na imagem abaixo e assinale a alternativa correta.**
 
 **a)**
 ```js

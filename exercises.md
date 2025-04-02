@@ -341,8 +341,6 @@ d) ""
 
 **Considerando o código JavaScript abaixo, qual alternativa implementa corretamente a função "calcular Trajetoria", que calcula a trajetória do sprite?**
 
-**Observe as alternativas na imagem abaixo e assinale a alternativa correta.**
-
 ```js
 function calcularTrajetoria(origem, destino) {
   // aqui você deve implementar a função escolhendo uma das alternativas
@@ -352,6 +350,8 @@ const origem = new Phaser.Math.Vector2(100, 100);
 const destino = new Phaser.Math.Vector2(200, 200);
 const trajetoria = calcularTrajetoria(origem, destino);
 ```
+
+**Observe as alternativas na imagem abaixo e assinale a alternativa correta.**
 
 a)
 ```js
